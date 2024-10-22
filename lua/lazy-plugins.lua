@@ -36,13 +36,23 @@ require('lazy').setup({
 
   require 'kickstart/plugins/cmp',
 
-  require 'kickstart/plugins/tokyonight',
+  --require 'kickstart/plugins/tokyonight',
+  --require 'kickstart/plugins/zenbones.nvim',
+  require 'kickstart/plugins/zenbones.nvim.lua',
 
   require 'kickstart/plugins/todo-comments',
 
   require 'kickstart/plugins/mini',
 
   require 'kickstart/plugins/treesitter',
+
+  -- PLUGINS I ADDED ON
+  require 'kickstart/plugins/bufferline.nvim',
+  require 'kickstart/plugins/vim-fugitive',
+  require 'kickstart/plugins/vim-repeat',
+  require 'kickstart/plugins/vim-surround',
+  -- -- END OF MY ADDON PLUGINS --
+  --
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and

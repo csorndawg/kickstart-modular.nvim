@@ -1,0 +1,14 @@
+Personal XDG_CONFIG structure for concurrent kickstarter NVIM configuration
+
+
+/home/shelby-sensation/.config
+|
+├── kickstart-nvim -> ../git/kickstart-modular.nvim
+├── nvim -> ../git/newdots/nvim.d
+
+
+
+## zshrc/bashrc aliases for kickstarter configuration
+
+alias kickstart-nvim='NVIM_APPNAME="kickstart-nvim" nvim'
+alias kvim='NVIM_APPNAME="kickstart-nvim" nvim'
