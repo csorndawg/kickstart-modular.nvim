@@ -3,5 +3,5 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-zenbones.nvim.lua,
+--zenbones.nvim.lua,
 }
