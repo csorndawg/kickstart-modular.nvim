@@ -4,4 +4,6 @@
 -- See the kickstart.nvim README for more information
 return {
 --zenbones.nvim.lua,
+--require 'custom/plugins/leap.nvim.lua',
+--require 'diffview.lua',
 }

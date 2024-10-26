@@ -20,40 +20,28 @@ require('lazy').setup({
   -- Use `opts = {}` to force a plugin to be loaded.
   --
 
-
   -- modular approach: using `require 'path/name'` will
   -- include a plugin definition from file lua/path/name.lua
 
   require 'kickstart/plugins/gitsigns',
-
   require 'kickstart/plugins/which-key',
-
   require 'kickstart/plugins/telescope',
-
   require 'kickstart/plugins/lspconfig',
-
   require 'kickstart/plugins/conform',
-
   require 'kickstart/plugins/cmp',
-
-  require 'kickstart/plugins/tokyonight',
-
+  --require 'kickstart/plugins/tokyonight',
   require 'kickstart/plugins/todo-comments',
-
   require 'kickstart/plugins/mini',
-
   require 'kickstart/plugins/treesitter',
 
   -- PLUGINS I ADDED ON
   --require 'kickstart/plugins/bufferline.nvim',
   --require 'kickstart/plugins/zenbones.nvim',
   --require 'kickstart/plugins/zenbones.nvim.lua',
-
   --require 'kickstart/plugins/vim-fugitive',
   --require 'kickstart/plugins/vim-repeat',
   --require 'kickstart/plugins/vim-surround',
   -- -- END OF MY ADDON PLUGINS --
-  --
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
@@ -77,6 +65,9 @@ require('lazy').setup({
   --    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
   -- { import = 'custom.plugins' },
   { import = 'custom.plugins' },
+  -- Explicit load specific custom plugins
+  --require 'custom/plugins/leap.nvim'
+
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
@@ -100,3 +91,8 @@ require('lazy').setup({
 })
 
 -- vim: ts=2 sts=2 sw=2 et
+
+
+-- @BROKE
+-- Explicit load specific custom plugins
+--require 'custom/plugins/leap.nvim'
