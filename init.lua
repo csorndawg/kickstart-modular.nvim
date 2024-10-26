@@ -109,8 +109,8 @@ require 'lazy-bootstrap'
 require 'lazy-plugins'
 
 -- @TODO
--- [[ NVIM Plugin Keymaps/Rebinds ]]
---require 'plug-keymaps'
+-- [[ Additional NVIM Plugin Configuration (Keymaps/Options/Etc.) ]]
+require 'lazy-extras'
 
 
 -- The line beneath this is called `modeline`. See `:help modeline`
